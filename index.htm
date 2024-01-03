@@ -1,16 +1,103 @@
 <!DOCTYPE html>
-
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Xompatible" content="IE-edge">
-    <meta name="viewport" content="width-device-width, initial-scale=1.0">
-    <title> SickKids Data Team </title>
-  </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Team Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
 
-  <body>
-    This is our personal brand website.
-    <br />
-    It's cool! 
-  </body>
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #logo {
+            float: left;
+            margin: 10px;
+        }
+
+        #team-info {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        #team-members {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .team-member {
+            text-align: center;
+            margin: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="logo_icon.ico" alt="SickKids Logo">
+        <h1>Data Team</h1>
+        <p>MEET THE TEAM</p>
+    </header>
+
+    <div id="team-info">
+        <p> At the heart of our hospital's efficient operation lies the dedicated Data Team within the Supply Chain Systems Department. We are a dynamic group of professionals committed to harnessing the power of data to optimize and streamline the complex processes that drive our hospital's supply chain. </p>
+    </div>
+
+    <div id="team-members">
+      <div class="team-member">
+            <img src="person1.jpg" alt="Person 1">
+            <h3>Yousuf Joyian</h3>
+            <p>Manager</p>
+        </div>  
+      <div class="team-member">
+            <img src="person2.jpg" alt="Person 2">
+            <h3>Matthew Vassov</h3>
+            <p>Interim Manager</p>
+        </div>
+      <div class="team-member">
+            <img src="person3.jpg" alt="Person 3">
+            <h3>Padmanie Bergeron</h3>
+            <p>Senior Technical Specialist</p>
+        </div>
+      <div class="team-member">
+            <img src="person4.jpg" alt="Person 4">
+            <h3>Zahir Chowdhury</h3>
+            <p>Data Analyst</p>
+        </div>
+      <div class="team-member">
+            <img src="person5.jpg" alt="Person 5">
+            <h3>Derek Jiang</h3>
+            <p>Data Analyst</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>For any queries, contact us at data.requests@sickkids.ca</p>
+    </footer>
+</body>
+
 </html>
